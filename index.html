@@ -29,7 +29,9 @@
 /*======================================
 //--//-->   ABOUT
 ======================================*/
-
+body {
+	overflow-x: hidden;
+}
 .about-mf .box-shadow-full {
   padding-top: 4rem;
   padding-bottom: 4rem;
@@ -137,27 +139,23 @@
 	  </nav>
 	  <section id="home-section" class="hero">
 		  <div class="home-slider  owl-carousel">
-	       <div class="slider-item ">
+	       <div class="slider-item">
 	      	<div class="overlay"></div>
 	         <div class="container">
 	          <div class="row d-md-flex no-gutters slider-text align-items-end justify-content-end" data-scrollax-parent="true">
-	          	<div class="one-third js-fullheight order-md-last img" style="background-image:url(images/Me.png);">
-	          	 <div class="overlay"></div>
-	          	</div>
 		          <div class="one-forth d-flex  align-items-center ftco-animate" data-scrollax=" properties: { translateY: '70%' }">
-		          	<div class="text">
-		          		<span class="subheading">Hello!</span>
-			            <h1 class="mb-4 mt-3">I'm <span>Beerkamaldeep Singh</span></h1>
+					  <div class="text">
+						  <span class="subheading">Hello!</span>
+						  <h1 class="mb-4 mt-3">I'm <span>Beerkamaldeep Singh</span></h1>
+						  <!-- Element to contain animated typing -->
+						  <span id="typing-animation"></span>
 
-						<!-- Element to contain animated typing -->
-						<span id="typing-animation"></span>
-
-						<br>
+						<br> 
 			            <h2>A Unity Developer</h2>
 						<!-- <h2 class="d-flex" style="margin-bottom: 0">With over 5 years of experience</h2> -->
 						<!-- <br> -->
 			            <p> 
-							<a href="https://www.linkedin.com/in/beer-kamaldeep-singh-69b808248/" class="btn btn-white btn-outline-white py-3 px-4">My works</a></p>
+							<a target="_blank" href="https://www.linkedin.com/in/beer-kamaldeep-singh-69b808248/" class="btn btn-white btn-outline-white py-3 px-4">My works</a></p>
 		            </div>
 		          </div>
 	        	</div>
@@ -165,8 +163,6 @@
 	      </div>
 		</div>
     </section>
-
-
 
     <section class="ftco-about img ftco-section ftco-no-pb" id="about-section">
     	<div class="container">
@@ -256,7 +252,7 @@
 									<span class="number" data-number="10">0</span> <span>+</span>
 									<span>&nbsp; Projects completed</span>
 								</p>
-								<p><a href="https://www.linkedin.com/in/beer-kamaldeep-singh-69b808248/" class="btn btn-primary py-3 px-3">LinkedIn</a></p>
+								<p><a target="_blank" href="https://www.linkedin.com/in/beer-kamaldeep-singh-69b808248/" class="btn btn-primary py-3 px-3">LinkedIn</a></p>
 							</div>
 						</div>
 					</div>
@@ -334,7 +330,7 @@
 
     		<div class="row justify-content-center mt-5">
     			<div class="col-md-6 text-center ftco-animate">
-    				<p><a href="assets/Beerkamaldeep-Singh-FlowCV-Resume-20250216.pdf" class="btn btn-primary py-4 px-5">Download CV</a></p>
+    				<p><a target="_blank" href="assets/Beerkamaldeep-Singh-FlowCV-Resume-20250216.pdf" class="btn btn-primary py-4 px-5">Download CV</a></p>
     			</div>
     		</div>
     	</div>
@@ -347,25 +343,14 @@
         <div class="row justify-content-center mb-5 pb-5">
           <div class="col-md-7 heading-section text-center ftco-animate">
             <h1 class="big big-2">Projects</h1>
-            <h2 class="mb-4">Projects</h2>
-            <p>Below are the sample Game and Web projects on Unity, Html, CSS & Javascript.</p>
+            <h2 class="mb-4">Personal Projects</h2>
+            <p>Below are the sample Game and Web projects on Unity.</p>
           </div>
         </div>
         <div class="row d-flex">
           <div class="col-md-4 d-flex ftco-animate">
           	<div class="blog-entry justify-content-end">
-              <a href="https://github.com/beerkamal" class="block-20 zoom-effect" style="background-image: url('images/Game1.png');">
-              </a>
-              <div class="text mt-3 float-right d-block">
-
-                <h3 class="heading"><a href="https://github.com/beerkamal">Health Care Website</a></h3>
-                <p>Healthcare Hub is a user-friendly website designed to simplify medical assistance by providing detailed hospital information, online appointment booking, and various healthcare services. Built with modern web technologies, view doctor availability, and schedule appointments seamlessly.</p>
-              </div>
-            </div>
-          </div>
-          <div class="col-md-4 d-flex ftco-animate">
-          	<div class="blog-entry justify-content-end">
-              <a href="https://github.com/beerkamal" class="block-20 zoom-effect" style="background-image: url('images/Game2.jpg');">
+              <a target="_blank" href="https://github.com/beerkamal" class="block-20 zoom-effect" style="background-image: url('images/Game2.jpg');">
               </a>
               <div class="text mt-3 float-right d-block">
 
@@ -376,7 +361,7 @@
           </div>
           <div class="col-md-4 d-flex ftco-animate">
           	<div class="blog-entry">
-              <a href="https://github.com/beerkamal" class="block-20 zoom-effect" style="background-image: url('images/Game3.jpg');">
+              <a target="_blank" href="https://github.com/beerkamal" class="block-20 zoom-effect" style="background-image: url('images/Game3.jpg');">
               </a>
               <div class="text mt-3 float-right d-block">
 
@@ -385,39 +370,39 @@
               </div>
             </div>
           </div>
+		  <div class="col-md-4 d-flex ftco-animate">
+			<div class="blog-entry justify-content-end">
+			<a target="_blank" href="https://capable-naiad-ba4bd9.netlify.app/" class="block-20 zoom-effect" style="background-image: url('images/Game5.jpg');">
+			</a>
+			<div class="text mt-3 float-right d-block">
+
+			  <h3 class="heading"><a target="_blank" href="https://capable-naiad-ba4bd9.netlify.app/">Milliard Diva Army</a></h3>
+			  <p>Milliard Diva Army is a thrilling 2D multiplayer shooter inspired by Mini Militia, featuring an all-female cast of fierce warriors. Built using Unity and Photon PUN2, the game delivers real-time fast-paced combat with smooth gameplay mechanics, engaging battle arenas, and strategic gunplay.</p>
+			</div>
+		  </div>
+		</div>
         </div>
-	<br>
 		<!-- added justify-content-center to center align the last two projects -->
 		<div class="row d-flex justify-content-center">  
+
 			<div class="col-md-4 d-flex ftco-animate">
 				<div class="blog-entry justify-content-end">
-				<a href="https://capable-naiad-ba4bd9.netlify.app/" class="block-20 zoom-effect" style="background-image: url('images/Game5.jpg');">
+				<a target="_blank" href="https://capable-naiad-ba4bd9.netlify.app/" class="block-20 zoom-effect" style="background-image: url('images/Game4.png');">
 				</a>
 				<div class="text mt-3 float-right d-block">
   
-				  <h3 class="heading"><a href="https://capable-naiad-ba4bd9.netlify.app/">Milliard Diva Army</a></h3>
-				  <p>Milliard Diva Army is a thrilling 2D multiplayer shooter inspired by Mini Militia, featuring an all-female cast of fierce warriors. Built using Unity and Photon PUN2, the game delivers real-time fast-paced combat with smooth gameplay mechanics, engaging battle arenas, and strategic gunplay.</p>
-				</div>
-			  </div>
-			</div>
-			<div class="col-md-4 d-flex ftco-animate">
-				<div class="blog-entry justify-content-end">
-				<a href="https://capable-naiad-ba4bd9.netlify.app/" class="block-20 zoom-effect" style="background-image: url('images/Game4.png');">
-				</a>
-				<div class="text mt-3 float-right d-block">
-  
-				  <h3 class="heading"><a href="https://capable-naiad-ba4bd9.netlify.app/">Milliard Robinhood</a></h3>
+				  <h3 class="heading"><a target="_blank" href="https://capable-naiad-ba4bd9.netlify.app/">Milliard Robinhood</a></h3>
 				  <p>Milliard Robinhood is a level-based stealth game where players take on the role of a master thief, sneaking into houses to steal valuable assets without getting caught by the police. Each level presents increasing challenges with smarter security systems, patrolling guards, and high-stakes loot.</p>
 				</div>
 			  </div>
 			</div>
 			<div class="col-md-4 d-flex ftco-animate">
 				<div class="blog-entry justify-content-end">
-				<a href="https://play.google.com/store/apps/details?id=com.sirragames.seepking&hl=en-US" class="block-20 zoom-effect" style="background-image: url('images/Game6.png');">
+				<a target="_blank" href="https://play.google.com/store/apps/details?id=com.sirragames.seepking&hl=en-US" class="block-20 zoom-effect" style="background-image: url('images/Game6.png');">
 				</a>
 				<div class="text mt-3 float-right d-block">
   
-				  <h3 class="heading"><a href="https://play.google.com/store/apps/details?id=com.sirragames.seepking&hl=en-US">Seep King – A Strategic Card Game</a></h3>
+				  <h3 class="heading"><a target="_blank" href="https://play.google.com/store/apps/details?id=com.sirragames.seepking&hl=en-US">Seep King – A Strategic Card Game</a></h3>
 				  <p>Seep King is a classic trick-based card game that challenges players to use strategy and skill to capture valuable cards and build high-scoring combinations. Developed in Unity, the game offers smooth gameplay, intelligent AI opponents, and multiplayer functionality for competitive matches.</p>
 				</div>
 			  </div>
@@ -425,6 +410,54 @@
 		 </div>
 	  </div>
     </section>
+
+
+	<section class="ftco-section  pt-0" id="project-section">
+		<div class="container">
+		  <div class="row justify-content-center mb-5 pb-5">
+			<div class="col-md-7 heading-section text-center ftco-animate">
+			  <h1 class="big big-2">Projects</h1>
+			  <h2 class="mb-4">Professional Projects</h2>
+			  <p>Below are the sample Game and Web projects on Unity.</p>
+			</div>
+		  </div>
+		  <div class="row d-flex">
+			<div class="col-md-4 d-flex ftco-animate">
+				<div class="blog-entry justify-content-end">
+				<a target="_blank" href="https://apps.apple.com/us/app/jungle-cycling-adventure/id6480037489" class="block-20 zoom-effect" style="background-image: url('images/Jungle_Adventure.png');">
+				</a>
+				<div class="text mt-3 float-right d-block">
+  
+				  <h3 class="heading"><a target="_blank" href="https://apps.apple.com/us/app/jungle-cycling-adventure/id6480037489">Jungle Cycle Adventure</a></h3>
+				  <p>A Jungle game set in the jungle with an AI-Driven animal attacks. This game offers players a thrilling cycling experience, navigating through dense forests, overcoming natural obstacles and discovering hidden paths. It is connected through a real paddling device.</p>
+				</div>
+			  </div>
+			</div>
+			<div class="col-md-4 d-flex ftco-animate">
+				<div class="blog-entry justify-content-end">
+				<a target="_blank" href="https://apps.apple.com/us/app/cityscape-cycling/id6479897899" class="block-20 zoom-effect" style="background-image: url('images/CityScape.png');">
+				</a>
+				<div class="text mt-3 float-right d-block">
+  
+				  <h3 class="heading"><a target="_blank" href="https://apps.apple.com/us/app/cityscape-cycling/id6479897899">CityScape Cycling</a></h3>
+				  <p>A cycling game set in a realistic New York city environment, where players ride through iconic locations and unlock advanced bikes. Navigate through bustling city streets, dodge traffic and complete time-based challenges in realistic metropolitan setting.</p>
+				</div>
+			  </div>
+			</div>
+			<div class="col-md-4 d-flex ftco-animate">
+				<div class="blog-entry">
+				<a target="_blank" href="https://apps.apple.com/us/app/ny-pedal/id6479898249" class="block-20 zoom-effect" style="background-image: url('images/NY\ Pedal.png');">
+				</a>
+				<div class="text mt-3 float-right d-block">
+  
+				  <h3 class="heading"><a target="_blank" href="https://apps.apple.com/us/app/ny-pedal/id6479898249">NY Pedal Adventure</a></h3>
+				  <p>Experience the vvibrant streets of New york in NY Pedal Adventure. This game combines the thril of cycling and the iconic landmarks and neighbourhood of NYC. From dodging pedestrains in Times Square to racing through Central Park it offers a diverse gameplay With intuitive smooth animations, and engaging gameplay</p>
+				</div>
+			  </div>
+			</div>
+		  </div>
+		</div>
+	  </section>
 
 	<section class="ftco-section ftco-no-pt ftco-no-pb ftco-counter img" id="section-counter">
       <div class="container">
@@ -457,14 +490,14 @@
         </div>
       </div>
 	
-	  <div class="ftco-section ftco-hireme img margin-top" style="background-image: url(images/bg_1.jpg)">
+	  <div class="ftco-section ftco-hireme img margin-top" style="background-image: url(images/1.jpg)">
 			<!-- <div class="container"> -->
 				<div class="row justify-content-center">
 					<div class="col-md-7 ftco-animate text-center">
 						<h2>More projects on<span> Github  </span> </h2>
-						<div class="heading"> <h4> I love to make epic games &amp; solve logical challenges </h4>
+						<div class="heading"> <h4 style="color: rgb(0, 0, 0); font-weight: 500;"> I love to make epic games &amp; solve logical challenges </h4>
 						<br>
-						<p><a href="https://github.com/beerkamal" class="btn btn-primary py-3 px-5">GitHub</a></p>
+						<p><a target="_blank" href="https://github.com/beerkamal" class="btn btn-primary py-3 px-5">GitHub</a></p>
 						</div>
 					</div>
 				</div>
@@ -509,7 +542,7 @@
           			<span class="icon-paper-plane"></span>
           		</div>
           		<h3 class="mb-4">Email Address</h3>
-	            <p><a href="mailto:info@yoursite.com">Beerkamaldeep418@gmail.com</a></p>
+	            <p><a target="_blank" href="mailto:info@yoursite.com">beerkamaldeep418@gmail.com</a></p>
 	          </div>
           </div>
           <div class="col-md-6 col-lg-3 d-flex ftco-animate">
@@ -518,15 +551,15 @@
           			<span class="icon-globe"></span>
           		</div>
           		<h3 class="mb-4">Download Resume</h3>
-	            <p><a href="assets/Beerkamaldeep-Singh-FlowCV-Resume-20250216.pdf">resumelink</a></p>
+	            <p><a target="_blank" href="assets/Beerkamaldeep-Singh-FlowCV-Resume-20250216.pdf">resumelink</a></p>
 	          </div>
           </div>
 
 		  <div class="container">
 					<ul class="ftco-footer-social list-unstyled d-flex justify-content-center align-items-center mb-0">
 					  <li class="ftco-animate normal-txt">Find me on  </li>
-					  <li class="ftco-animate"><a href="https://www.linkedin.com/in/beer-kamaldeep-singh-69b808248/"><span class="icon-linkedin"></span></a></li>  
-				      <li class="ftco-animate"><a href="https://www.instagram.com/binnyheree/?__pwa=1#"><span class="icon-instagram"></span></a></li>
+					  <li class="ftco-animate"><a target="_blank" href="https://www.linkedin.com/in/beer-kamaldeep-singh-69b808248/"><span class="icon-linkedin"></span></a></li>  
+				      <li class="ftco-animate"><a target="_blank" href="https://www.instagram.com/binnyheree/?__pwa=1#"><span class="icon-instagram"></span></a></li>
 					</ul>
 		   </div>
    </div>
